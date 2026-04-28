@@ -1,0 +1,36 @@
+# PROJECT SETUP
+
+npm create vite@latest slot-game -- --template vanilla-ts   # create
+cd slot-game                                                # enter
+npm install                                                 # install
+
+# DEPENDENCIES
+
+npm install pixi.js@7                                       # pixi
+
+# DEVELOPMENT
+
+npm run dev                                                 # run
+
+# VERSION CHECKS
+
+node -v                                                     # node
+npm -v                                                      # npm
+
+# CLEAN & REINSTALL (if issues)
+
+rm -rf node_modules package-lock.json                       # clean
+npm install                                                 # reinstall
+
+# BUILD (production)
+
+npm run build                                               # build
+
+# PREVIEW BUILD
+
+npm run preview                                             # preview
+
+# stop tracking node_modules
+
+git rm -r --cached node_modules
+git commit -m "Stop tracking node_modules"

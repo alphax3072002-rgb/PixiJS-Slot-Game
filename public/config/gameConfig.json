@@ -1,0 +1,44 @@
+{
+  "app": {
+    "width": 1280,
+    "height": 720,
+    "backgroundColor": 461845
+  },
+  "reels": 4,
+  "rows": 3,
+  "symbols": ["A", "K", "Q", "J", "WILD", "SCATTER"],
+  "reelStrips": [
+    ["A", "K", "Q", "J", "WILD", "A", "SCATTER", "K", "Q", "J", "A", "K"],
+    ["K", "Q", "J", "A", "SCATTER", "WILD", "K", "Q", "A", "J", "K", "Q"],
+    ["Q", "J", "A", "K", "WILD", "Q", "SCATTER", "J", "A", "K", "Q", "J"],
+    ["J", "A", "K", "Q", "SCATTER", "J", "WILD", "A", "K", "Q", "J", "A"],
+    ["A", "SCATTER", "Q", "J", "K", "A", "WILD", "Q", "J", "K", "A", "Q"]
+  ],
+  "freeSpinsCount": 10,
+  "freeSpinsTriggerCount": 3,
+  "forceMatrix": null,
+  "betOptions": [1, 2, 5, 10],
+  "defaultBet": 1,
+  "balance": 100,
+  "reelSpin": {
+    "initialSpeed": 18,
+    "speedStepPerReel": 1.5,
+    
+    "stopDelay": 0.45,
+    "stopDelayStepPerReel": 0.12,
+
+    "acceleration": 30,
+    "maxSpeed": 40,
+    "deceleration": 36,
+    "movementMultiplier": 18,
+    "snapSpeed": 1.5
+  },
+  "reelLayout": {
+    "x": 120,
+    "y": 110,
+    "cellWidth": 180,
+    "cellHeight": 130,
+    "reelGap": 18,
+    "rowGap": 12
+  }
+}
